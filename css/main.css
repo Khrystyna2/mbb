@@ -415,18 +415,18 @@ h6 {
 
 @media only screen and (max-width: 767.8px) {
   .nav {
-    transition: .4s  ;
-    -webkit-transition: .4s  ;
-    -moz-transition: .4s  ;
-    -ms-transition: .4s  ;
-    -o-transition: .4s  ;
-}
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+  }
 
-.nav.bg-green {
-  background-color: #58A494;
-}
+  .nav.bg-green {
+    background-color: #58A494;
+  }
 
-  .menu__btn{
+  .menu__btn {
     height: 2.4rem;
     width: 2.4rem;
     background: transparent;
@@ -434,10 +434,11 @@ h6 {
     cursor: pointer;
     z-index: 100;
     margin-right: 1rem;
-}
-.menu__btn span,
-.menu__btn span::before,
-.menu__btn span::after{
+  }
+
+  .menu__btn span,
+  .menu__btn span::before,
+  .menu__btn span::after {
     display: block;
     position: absolute;
     top: 50%;
@@ -446,81 +447,89 @@ h6 {
     width: 2.4rem;
     height: 4px;
     background-color: #6F6F6F;
-}
-.menu__btn span::before,
-.menu__btn span::after{
+  }
+
+  .menu__btn span::before,
+  .menu__btn span::after {
     content: '';
     transition: transform 0.4s;
     -webkit-transition: transform 0.4s;
     -moz-transition: transform 0.4s;
     -ms-transition: transform 0.4s;
     -o-transition: transform 0.4s;
-}
-.menu__btn span::before{
+  }
+
+  .menu__btn span::before {
     transform: translateY(-8px);
     -webkit-transform: translateY(-8px);
     -moz-transform: translateY(-8px);
     -ms-transform: translateY(-8px);
     -o-transform: translateY(-8px);
-}
-.menu__btn span::after{
+  }
+
+  .menu__btn span::after {
     transform: translateY(8px);
     -webkit-transform: translateY(8px);
     -moz-transform: translateY(8px);
     -ms-transform: translateY(8px);
     -o-transform: translateY(8px);
-}
-.menu__btn_active span{
+  }
+
+  .menu__btn_active span {
     height: 0;
-}
-.menu__btn_active span:before {
+  }
+
+  .menu__btn_active span:before {
     transform: rotate(-42deg);
     -webkit-transform: rotate(-42deg);
     -moz-transform: rotate(-42deg);
     -ms-transform: rotate(-42deg);
     -o-transform: rotate(-42deg);
     background-color: #fff;
-}
-.menu__btn_active span:after {
+  }
+
+  .menu__btn_active span:after {
     transform: rotate(42deg);
     -webkit-transform: rotate(42deg);
     -moz-transform: rotate(42deg);
     -ms-transform: rotate(42deg);
     -o-transform: rotate(42deg);
     background-color: #fff;
-}
+  }
 
-.menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: #58A494;
-  padding: 6rem 0 4rem;
-  text-align: center;
-  z-index: 99;
-  max-height: 100vh;
-  overflow: auto;
-}
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #58A494;
+    padding: 6rem 0 4rem;
+    text-align: center;
+    z-index: 99;
+    max-height: 100vh;
+    overflow: auto;
+  }
 
-.menu__item {
-  margin: 0 0 2.6rem 0;
-  font-size: 1rem;
-}
+  .menu__item {
+    margin: 0 0 2.6rem 0;
+    font-size: 1rem;
+  }
 
-.menu__item:last-child {
-  margin-bottom: 0;
-}
+  .menu__item:last-child {
+    margin-bottom: 0;
+  }
 
 
   .footer__info {
     text-align: center;
   }
+
   .footer__info_item {
     justify-content: center;
   }
+
   .footer__info .language {
     margin-top: 3rem;
-}
+  }
 }
