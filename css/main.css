@@ -156,6 +156,7 @@ h6 {
 }
 .title-section >img {
   margin-left: 1.8rem;
+  width: 2.3rem;
 }
 
 .btn-border-white {
@@ -372,6 +373,7 @@ h6 {
 /* section show-goods */
 .show-goods {
   background: #58A494 url(../image/triangle-green.svg) no-repeat bottom center;
+  background-size: 28rem;
   padding-bottom: 3.6rem;
 }
 
@@ -406,6 +408,25 @@ h6 {
   line-height: normal;
   font-weight: 700;
   margin-bottom: 1.4rem;
+}
+
+/* section interested */
+.interested {
+  background: #fff url(../image/triangle-gray.svg) no-repeat top center;
+  background-size: 28rem;
+  padding: 3.8rem 0 6.3rem;
+  font-size: 1.2rem;
+}
+
+.interested__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.interested__title>img {
+  display: block;
+  margin: 0.4rem auto;
+  width: 2.3rem;
 }
 
 /* section footer */
