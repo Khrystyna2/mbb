@@ -9,6 +9,7 @@
 	text-transform: uppercase;
 	color: #6F6F6F;
 	margin-bottom: 40px;
+	font-weight: normal;
 
 }
  .manufac p{
@@ -57,7 +58,18 @@
 	background-color: #fff;
 	height: 259px;
 	padding-top: 35px;
-	margin-top: 40px;s
+	margin-top: 40px;
+}
+.contact p{
+	font-size: 1.1111rem;
+	margin-bottom: 12px;
+}
+.contact:first-child{
+	padding: 0 90px;
+	padding-top: 35px;
+}
+.contact:first-child p{
+	font-size: 1rem;
 }
 
 
@@ -68,6 +80,7 @@
 	font-weight: normal;
 	margin-top: 10px;
 	margin-bottom: 25px;
+	text-transform: none;
 }
 .contacts h2{
 	margin-bottom: 0;
@@ -166,7 +179,7 @@
 
 .cl>div{
 	margin-top: 25px;
-	font-size: 20px;
+	font-size: 1.1111rem;
 	line-height: 26px;
 	color: #6F6F6F;
 }
@@ -175,6 +188,7 @@
 	font-weight: bold;
 }
 .second-list>div{
+	font-size: 1.1111rem;
 	margin-right: 21px;
 }
 .second-list li{
@@ -197,17 +211,17 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
 
 .second-list>div:last-child{
 	margin-left: 10px;
 }
 .second-list{
-	font-size: 0.6111rem;
 	padding-left: 7px;
 }
 .second-list>div{
-	margin-right: 15px;
+	margin-right: 9px;
+	font-size: 0.7222rem;
 }
 .cl>div{
 	font-size: 0.8333rem;
@@ -219,6 +233,7 @@
 }
 .container h2>img{
 	margin-left: 20px;
+	margin-top: -7px;
 }
 .container h2>img,.container h2 {
 	display: inline-block;
@@ -229,7 +244,27 @@
 }
 
 
+@media only screen and (max-width: 1800px) {
+.contact:first-child{
+	padding: 0 10px;
+	padding-top: 35px;
 
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+.menu li a{
+	color: #fff;
+}
+
+.container h2>img {
+	width: 30px;
+	height: 20px;
+	margin-left: 10px; 
+}
+
+}
 
 
 
