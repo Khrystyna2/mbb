@@ -92,6 +92,9 @@
 }
 
 /*-----------------------products--------------------*/
+.products{
+	justify-content: flex-start;
+}
 .products .pick-block{
 	padding-top: 16px;
 	padding-bottom: 55px;
@@ -113,7 +116,7 @@
 	background-color: #C4C4C4;
 	text-align: center;
 	padding-top: 20px;
-	}
+}
 
 .img-prod{
 	width: 100%;
@@ -121,7 +124,7 @@
 .prod{
 	margin-top: 30px;
 }
-.prod:hover .sm-btn{
+.sm-btn:hover{
 	background-color: #58A494;
 }
 .name-prod{
@@ -166,6 +169,7 @@
 
 .cl{
 	flex-direction: column;
+	padding-left: 15px;
 
 }
 .cl>div>div{
@@ -208,6 +212,9 @@
 }
 .open-container>.row:last-child>div{
 	margin-top: 20px;
+}
+.second-list{
+	padding-left: 15px;
 }
 
 
